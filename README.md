@@ -88,8 +88,7 @@ Our goal is to make X-Slim **truly plug-and-play**: readers can drop in the mana
 ## 🧠 Method at a Glance
 
 ### 1) Push-then-Polish Caching
-X-Slim **pushes** step-level reuse until an **early-warning line**, then **polishes** residual error by selectively refreshing **blocks/tokens**.  
-When a **critical line** is triggered, X-Slim performs a **full inference step** to reset accumulated error.
+X-Slim **pushes** step-level reuse until an **early-warning line**, then **polishes** residual error by selectively refreshing **blocks/tokens**. When a **critical line** is triggered, X-Slim performs a **full inference step** to reset accumulated error.
 
 ### 2) Level-specific Strategy
 Different reuse levels follow different dynamics:
