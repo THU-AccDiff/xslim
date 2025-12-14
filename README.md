@@ -40,17 +40,11 @@
 <details>
 <summary><b>📖 Abstract</b> (click to expand)</summary>
 
-Diffusion models deliver strong generative quality, but inference cost scales with timestep count, model depth, and token length.
-Feature caching reuses nearby computations, yet aggressive timestep skipping often hurts fidelity while conservative block or token
-refresh yields limited speedup. We present <b>X-Slim</b> (e<b>X</b>treme-<b>Slim</b>ming Caching), a training-free, cache-based accelerator that jointly
-exploits redundancy across temporal, structural, and spatial dimensions.
+Diffusion models deliver strong generative quality, but inference cost scales with timestep count, model depth, and token length. Feature caching reuses nearby computations, yet aggressive timestep skipping often hurts fidelity while conservative block or token refresh yields limited speedup. We present <b>X-Slim</b> (e<b>X</b>treme-<b>Slim</b>ming Caching), a training-free, cache-based accelerator that jointly exploits redundancy across temporal, structural, and spatial dimensions.
 
-X-Slim introduces a dual-threshold <b>push-then-polish</b> controller: it first pushes timestep-level reuse up to an early-warning line, then
-polishes residual error with lightweight block- and token-level refresh; a critical line triggers full inference to reset error.
-Level-specific, context-aware indicators guide when and where to cache, shrinking search overhead.
+X-Slim introduces a dual-threshold <b>push-then-polish</b> controller: it first pushes timestep-level reuse up to an early-warning line, then polishes residual error with lightweight block- and token-level refresh; a critical line triggers full inference to reset error. Level-specific, context-aware indicators guide when and where to cache, shrinking search overhead.
 
-On FLUX.1-dev and HunyuanVideo, X-Slim reduces latency by up to 4.97x and 3.52x with minimal perceptual loss, and on DiT-XL/2 it
-reaches 3.13x acceleration with a FID improvement of 2.42 over prior methods.
+On FLUX.1-dev and HunyuanVideo, X-Slim reduces latency by up to 4.97× and 3.52× with minimal perceptual loss, and on DiT-XL/2 it reaches 3.13× acceleration with a FID improvement of 2.42 over prior methods.
 
 </details>
 
