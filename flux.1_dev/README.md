@@ -1,6 +1,6 @@
 # X-Slim for FLUX.1-dev (Diffusers)
 
-This script adds **X-Slim (Extreme-Slimming Caching)** inference-time acceleration on top of **FLUX.1-dev** using the 🤗 `diffusers` library.
+This script adds **X-Slim (Extreme-Slimming Caching)** inference-time acceleration on top of **FLUX.1-dev** using the 🤗 `diffusers(0.34.0)` library.
 
 X-Slim modes:
 - `original` – no cache (baseline)
