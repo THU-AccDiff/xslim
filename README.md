@@ -62,11 +62,8 @@ On FLUX.1-dev and HunyuanVideo, X-Slim reduces latency by up to 4.97× and 3.52�
 ---
 
 ## 🎞️ Video Demo
-<div align="center">
-  <video muted loop playsinline controls width="100%">
-    <source src="https://raw.githubusercontent.com/THU-AccDiff/xslim/c851c5741a28398373f40763086dfa579d8802a3/assets/xslim_demo.mp4" type="video/mp4">
-  </video>
-</div>
+
+https://github.com/user-attachments/assets/743e743b-16db-4076-85dc-5a7065ad26ab
 
 ---
 
