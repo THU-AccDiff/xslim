@@ -75,7 +75,19 @@ reaches 3.13x acceleration with a FID improvement of 2.42 over prior methods.
   </video>
 </div>
 
+---
 
+## 🧭 Todo
+
+
+- [ ] 🧩 Release a **plug-and-play `xslim_manager` interface** (one-line integration across backbones)
+- [ ] 📼 Release a **plug-and-play offline strategy pipeline**: `xslim_recorder` (online recording) + offline strategy export (YAML/PTH)
+- [x] 🔗 Release the project page
+- [x] 🖼️ Release X-Slim for **FLUX.1-dev**
+- [x] 🎞️ Release X-Slim for **HunyuanVideo**
+- [x] 📝 Release paper
+
+Our goal is to make X-Slim **truly plug-and-play**: readers can drop in the manager interface, record their own statistics, and design custom schedules—no intrusive model edits required.
 
 ---
 
@@ -113,9 +125,7 @@ cd xslim
 
 ### 1) X-Slim + FLUX.1-dev (🤗 Diffusers)
 
-X-Slim for FLUX.1-dev lives in **`flux.1_dev/`** and relies on your existing FLUX+Diffusers setup.
-
-**You need:**
+X-Slim for FLUX.1-dev lives in **`flux.1_dev/`** and relies on your existing FLUX+Diffusers setup. **You need:**
 - a working `diffusers` environment for FLUX.1-dev
 - a FLUX.1-dev checkpoint folder containing `transformer/`, `vae/`, `scheduler/`, etc.
 
@@ -123,27 +133,13 @@ X-Slim for FLUX.1-dev lives in **`flux.1_dev/`** and relies on your existing FLU
 
 ### 2) X-Slim + HunyuanVideo
 
-X-Slim for HunyuanVideo is implemented as a lightweight patch on top of the official repo.
-
-**You need:**
+X-Slim for HunyuanVideo is implemented as a lightweight patch on top of the official repo. **You need:**
 - the official HunyuanVideo environment and checkpoints (e.g., `model_base`)
 - to integrate X-Slim files (replace/add a few modules)
 
 👉 See: `HunyuanVideo/README.md` for step-by-step integration.
 
----
 
-## 🧭 Todo
-
-
-- [ ] 🧩 Release a **plug-and-play `xslim_manager` interface** (one-line integration across backbones)
-- [ ] 📼 Release a **plug-and-play offline strategy pipeline**: `xslim_recorder` (online recording) + offline strategy export (YAML/PTH)
-- [x] 🔗 Release the project page
-- [x] 🖼️ Release X-Slim for **FLUX.1-dev**
-- [x] 🎞️ Release X-Slim for **HunyuanVideo**
-- [x] 📝 Release paper
-
-Our goal is to make X-Slim **truly plug-and-play**: readers can drop in the manager interface, record their own statistics, and design custom schedules—no intrusive model edits required.
 
 ---
 ## 🔖 Citation
