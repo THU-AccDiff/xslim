@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/rocket.png" height="140" alt="X-Slim rocket">
+  <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/rocket.png" height="100" alt="X-Slim rocket">
 </p>
 
 <h1>X-Slim: No Cache Left Idle</h1>
