@@ -136,11 +136,11 @@ X-Slim for HunyuanVideo is implemented as a lightweight patch on top of the offi
 If you find X-Slim helpful, please consider giving a star ⭐ and citing 📝
 
 ```bibtex
-@article{xslim2026,
+@article{xslimcache2025,
   title={No Cache Left Idle: Accelerating Diffusion Model via Extreme-Slimming Caching},
-  author={Anonymous},
-  journal={CVPR Submission},
-  year={2026}
+  author={Wen, Tingyan and Li, Haoyu and Chen, Yihuang and Zhou, Xing and Zhu, Lifei and Wang, XueQian},
+  journal={arXiv preprint arXiv:2512.12604},
+  year={2025}
 }
 ```
 
