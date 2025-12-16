@@ -19,17 +19,17 @@
   (<sup>*</sup> Equal Contribution &nbsp;&nbsp; <sup>†</sup> Corresponding Author)
 </div>
 
-<!-- <br> -->
-
 <a href="https://thu-accdiff.github.io/xslim-page/">
   <img src="https://img.shields.io/badge/Project-Website-green" alt="Project Page">
 </a>
 <a href="https://github.com/THU-AccDiff/xslim/">
   <img src="https://img.shields.io/badge/Code-GitHub-blue" alt="Code">
 </a>
-<a href="https://thu-accdiff.github.io/xslim-page/">
-  <img src="https://img.shields.io/badge/Paper-TODO-lightgrey" alt="Paper">
+<a href="https://arxiv.org/abs/2512.12604">
+  <img src="https://img.shields.io/badge/arXiv-2512.12604-b31b1b.svg" alt="arXiv">
 </a>
+
+<!-- <br> -->
 
 <p align="center">
   <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/fig_display.png" width="100%" alt="X-Slim overview">
