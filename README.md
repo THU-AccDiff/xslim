@@ -39,7 +39,8 @@
 > - If the review is approved, we will publish the full code here promptly.
 > - If it is not approved, we will release a clean, self-written **plug-and-play interface** plus a **minimal demo** and **backbone adaptation notes**.
 >
-> Thanks for your patience and understanding. We sincerely appreciate your continued interest and support.
+> 📩We warmly welcome any discussion or suggestions on cache-based acceleration. Feel free to email: wenty24@mails.tsinghua.edu.cn 
+> 🌹Thanks for your patience and understanding. We sincerely appreciate your continued interest and support.
 
 <p align="center">
   <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/fig_display.png" width="100%" alt="X-Slim overview">
