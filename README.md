@@ -29,12 +29,23 @@
   <img src="https://img.shields.io/badge/arXiv-2512.12604-b31b1b.svg" alt="arXiv">
 </a>
 
-<!-- <br> -->
+<br>
+---
+</div>
+
+> ### 🙏 Apology on Code Release
+> Part of this work was completed during an internship at **Huawei**, so releasing the full code is currently subject to internal compliance review. We’re sorry that the repository can’t yet include the complete implementation.
+>
+> - If the review is approved, we will publish the full code here promptly.
+> - If it is not approved, we will release a clean, self-written **plug-and-play interface** plus a **minimal demo** and **backbone adaptation notes**.
+>
+> Thanks for your patience and understanding. We sincerely appreciate your continued interest and support.
 
 <p align="center">
   <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/fig_display.png" width="100%" alt="X-Slim overview">
 </p>
 
+<div align="center">
 <strong>🚀 X-Slim is a <u>training-free</u> cache-based accelerator that jointly exploits redundancy across <u>temporal</u> (timesteps), <u>structural</u> (blocks), and <u>spatial</u> (tokens) dimensions.</strong>
 
 <details>
@@ -67,17 +78,15 @@ https://github.com/user-attachments/assets/743e743b-16db-4076-85dc-5a7065ad26ab
 
 ---
 
+
 ## 🧭 Todo
 
-
-- [ ] 🧩 Release a **plug-and-play `xslim_manager` interface** (one-line integration across backbones)
-- [ ] 📼 Release a **plug-and-play offline strategy pipeline**: `xslim_recorder` (online recording) + offline strategy export (YAML/PTH)
+- [ ] 📼 **Pending review:** Publish the full code in this repo once the internal review is cleared. If it cannot be released, we will ship a **clean, self-written demo + backbone adaptation guide** so you can try X-Slim on your own model with minimal effort.
 - [x] 🔗 Release the project page
-- [x] 🖼️ Release X-Slim for **FLUX.1-dev**
-- [x] 🎞️ Release X-Slim for **HunyuanVideo**
-- [x] 📝 Release paper
+- [x] 📝 Release the arXiv paper
 
-Our goal is to make X-Slim **truly plug-and-play**: readers can drop in the manager interface, record their own statistics, and design custom schedules—no intrusive model edits required.
+
+Our goal is to make X-Slim **truly plug-and-play**: readers can drop in the manager interface, record their own statistics, and design custom schedules.
 
 ---
 
@@ -95,39 +104,6 @@ Different reuse levels follow different dynamics:
 <p align="center">
   <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/fig_framework.png" width="100%" alt="X-Slim framework">
 </p>
-
-
-
----
-
-## 🔧 Installation
-
-> **Note:** X-Slim is training-free and plug-and-play, so it does **not** require any extra environment setup on its own.   
-> Keep your existing runnable **FLUX.1-dev / HunyuanVideo** setup (dependencies + checkpoints) and apply X-Slim directly.  
-
-
-
-```bash
-git clone https://github.com/THU-AccDiff/xslim.git
-cd xslim
-```
-
-### 1) X-Slim + FLUX.1-dev (🤗 Diffusers)
-
-X-Slim for FLUX.1-dev lives in **`flux.1_dev/`** and relies on your existing FLUX+Diffusers setup. **You need:**
-- a working `diffusers` environment for FLUX.1-dev
-- a FLUX.1-dev checkpoint folder containing `transformer/`, `vae/`, `scheduler/`, etc.
-
-👉 See: `flux.1_dev/README.md` for folder structure & usage details.
-
-### 2) X-Slim + HunyuanVideo
-
-X-Slim for HunyuanVideo is implemented as a lightweight patch on top of the official repo. **You need:**
-- the official HunyuanVideo environment and checkpoints (e.g., `model_base`)
-- to integrate X-Slim files (replace/add a few modules)
-
-👉 See: `HunyuanVideo/README.md` for step-by-step integration.
-
 
 
 ---
