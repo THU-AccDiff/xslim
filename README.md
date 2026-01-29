@@ -7,17 +7,6 @@
 <h1>X-Slim: No Cache Left Idle</h1>
 <h3>Accelerating Diffusion Models via <i>Extreme-Slimming Caching</i></h3>
 
-<div>
-  <b>Tingyan Wen<sup>1*</sup></b> · <b>Haoyu Li<sup>1*</sup></b> · <b>Yihuang Chen<sup>2†</sup></b> · <b>Xing Zhou<sup>2</sup></b> · <b>Lifei Zhu<sup>2</sup></b> · <b>XueQian Wang<sup>1†</sup></b>
-</div>
-
-<div>
-  <sup>1</sup> Tsinghua University &nbsp;&nbsp; <sup>2</sup> Central Media Technology Institute, Huawei
-</div>
-
-<div>
-  (<sup>*</sup> Equal Contribution &nbsp;&nbsp; <sup>†</sup> Corresponding Author)
-</div>
 
 <a href="https://thu-accdiff.github.io/xslim-page/">
   <img src="https://img.shields.io/badge/Project-Website-green" alt="Project Page">
@@ -33,14 +22,6 @@
 ---
 </div>
 
-> ### 🙏 Apology on Code Release
-> Part of this work was completed during an internship at **Huawei**, so releasing the full code is currently subject to internal compliance review. We’re sorry that the repository can’t yet include the complete implementation.
->
-> - If the review is approved, we will publish the full code here promptly.
-> - If it is not approved, we will release a clean, self-written **plug-and-play interface** plus a **minimal demo** and **backbone adaptation notes**.
->
-> 📩We warmly welcome any discussion or suggestions on cache-based acceleration. Feel free to email: wenty24@mails.tsinghua.edu.cn 
-> 🌹Thanks for your patience and understanding. We sincerely appreciate your continued interest and support.
 
 <p align="center">
   <img src="https://thu-accdiff.github.io/xslim-page/xslim_files/figs/fig_display.png" width="100%" alt="X-Slim overview">
@@ -81,8 +62,9 @@ https://github.com/user-attachments/assets/743e743b-16db-4076-85dc-5a7065ad26ab
 
 
 ## 🧭 Todo
-
-- [ ] 📼 **Pending review:** Publish the full code in this repo once the internal review is cleared. If it cannot be released, we will ship a **clean, self-written demo + backbone adaptation guide** so you can try X-Slim on your own model with minimal effort.
+- [ ] 🔌Polish the plug-and-play cache manager interface
+- [x] 📹 Release X-Slim for HunyuanVideo.
+- [x] 🖼️ Release X-Slim for FLUX.
 - [x] 🔗 Release the project page
 - [x] 📝 Release the arXiv paper
 
